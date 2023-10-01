@@ -1,0 +1,79 @@
+@font-face {
+  font-family: justsignature;
+  src: url('../fonts/justsignature/JustSignature.woff');
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #282828;
+}
+#id-card {
+  position: relative;
+  display: none;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 54px 17px 10px 144px;
+  background: url("../images/idcard.png");
+}
+img {
+  position: absolute;
+  left:19px;
+  top:55px;
+  width: 99px;
+  height: 130px;
+  border-radius: 9px;
+}
+#name {
+  position: absolute;
+  left: 140px;
+  top: 65px;
+  color: #282828;
+}
+#inline {
+  position: absolute;
+  top: 109px;
+}
+#dob {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  color: #282828;
+}
+#sex {
+  position: absolute;
+  left: 0px;
+  top: 42px;
+  color: #282828;
+}
+#height {
+  position: absolute;
+  left: 105px;
+  top: -43px;
+  width: 60px;
+  color: #282828;
+}
+#signature {
+  position: absolute;
+  bottom: 23px;
+  left: 25px;
+  color: #252525;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform:capitalize;
+  font-family: justsignature;
+}
+#licenses {
+  position: absolute;
+  top: 109px;
+  right: 155px;
+  width: 50px;
+  color: #282828;
+}
