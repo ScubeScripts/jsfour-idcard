@@ -6,7 +6,7 @@
 
 # What is new?
 - the line for the signature was extended
-- a police badge was added
+- a police badge was added --add the SQL to your database
 - new color design
 - all texts are now optimally adapted
 
