@@ -20,7 +20,9 @@
 
 ## Requirements
 
-> [ESX-Legacy](https://github.com/esx-framework/esx-legacy) V1.10.1 and newer
+> [ESX-Legacy](https://github.com/esx-framework/esx-legacy)
+
+> [oxmysql](https://github.com/esx-framework/esx-legacy)
 
 ## Installation
 Clone or download this repository
